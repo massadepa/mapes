@@ -21,7 +21,7 @@
     attribution: '© OpenStreetMap'
   }).addTo(map);
 
-  fetch('SenyalsTRAGSA6.geojson')
+  fetch('Senyals_TRAGSA.geojson')
     .then(r => {
       if (!r.ok) throw new Error('No se pudo cargar el GeoJSON');
       return r.json();
